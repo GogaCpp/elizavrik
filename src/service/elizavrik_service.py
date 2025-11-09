@@ -70,4 +70,4 @@ if __name__ == "__main__":
     city = input("Введите город")
     result = elizavrik.run(city=city, question="Какая погода?")
 
-    print("Финальный ответ:", result["answer"])
+    print(result["answer"])
